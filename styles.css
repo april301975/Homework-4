@@ -1,0 +1,173 @@
+* { box-sizing: border-box; }
+
+.cat-box-article {
+  height: 50em;
+  width: 65em;
+  /* margin: 1em; */
+  /* border: 1px solid; */
+  /* position: absolute; */
+  padding-top: 50px;
+  padding-left: 200px;
+  font-family: sans-serif;
+}
+.cat-box-article {
+  float: left
+}
+.cat-box-aside {
+  height: 50em;
+  width: 30em;
+  /* padding: 10px; */
+  padding-right: 64px;
+  padding-top: 50px;
+  /* border: 1px solid; */
+  margin: 1em;
+  font-family: sans-serif;
+
+}
+
+.cat-box-aside {
+  float: right
+}
+
+.cat-box-banner {
+  height: 300px;
+  /* width: 30em; */
+  padding: 10px 10px 10px 200px;   /* top right bottom left  */
+  border: 0px solid red;
+  /* margin: 0px; */
+  /* background-color: #0086AB; */ /* #0086AB */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("lesson04-mock2-banner-image.jpg");
+  /* height: 50%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cat-box-nav {
+  height: 72px;
+  /* width: 30em; */
+  padding: 24px 0px 0px 200px;   /* top right bottom left  */
+  /* border: 1px solid red; */
+  margin: 0em;
+  background-color: #D1D4D5;
+
+}
+.nav-text {
+  /* height: 72px; */
+  font-family: sans-serif;
+  font-size: 22px;
+  /* color: gray; */
+  font-weight: bolder;
+}
+
+.banner-h1 {
+  font-family: sans-serif;
+  font-size: 70px;
+  color: white;
+  /* border: 1px solid; */
+  height: 70px;
+  margin: 48px 0px 0px 0px;
+}
+.banner-h3 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 35px;
+  color: white;
+  /* border: 1px solid; */
+  height: 48px;
+  margin: 16px 0px 0px 0px;
+
+}
+blockquote {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 24px;
+  color: teal;
+}
+a{
+  text-decoration: none;
+  text-decoration-color: gray;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  background-color: silver;
+}
+.footer-nav  {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+}
+.cat-box-footer {
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url("lesson04-mock4-footer-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 16px;
+  color: white;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  clear: right;
+  text-align: center;
+
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: center; */
+
+}
+/* .cat-box-footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: red;
+color: white;
+text-align: center;
+} */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#rates {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#rates th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: green;
+  font-weight: bolder;
+}
+#rates td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#rates tr:nth-child(even){background-color: #f2f2f2;}
+
+#rates tr:hover {background-color: #ddd;}
+
+#rates th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
